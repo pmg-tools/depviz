@@ -27,7 +27,7 @@ require (
 	github.com/prometheus/client_golang v1.8.0 // indirect
 	github.com/prometheus/common v0.15.0 // indirect
 	github.com/rogpeppe/go-internal v1.6.2 // indirect
-	github.com/rs/cors v1.7.0
+	github.com/rs/cors v1.8.2
 	github.com/sirupsen/logrus v1.7.0 // indirect
 	github.com/spf13/cobra v1.1.1 // indirect
 	github.com/stretchr/testify v1.7.0
