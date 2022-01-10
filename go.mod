@@ -22,7 +22,7 @@ require (
 	github.com/karrick/godirwalk v1.16.1 // indirect
 	github.com/oklog/run v1.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/peterbourgon/ff/v3 v3.0.0
+	github.com/peterbourgon/ff/v3 v3.1.2
 	github.com/pquerna/cachecontrol v0.0.0-20200921180117-858c6e7e6b7e // indirect
 	github.com/prometheus/client_golang v1.8.0 // indirect
 	github.com/prometheus/common v0.15.0 // indirect
