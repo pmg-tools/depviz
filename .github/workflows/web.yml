@@ -21,13 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     working_directory: web
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v2.4.2
       - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2.3.0
+        uses: actions/setup-node@v2.5.1
         with:
           node-version: ${{ matrix.node }}
       - name: Cache Node.js modules
-        uses: actions/cache@v2.1.6
+        uses: actions/cache@v2.1.7
         with:
           path: web/node_modules
           key:          ${{ runner.OS }}-node-${{ matrix.node }}-v1-${{ hashFiles('web/yarn.lock') }}
